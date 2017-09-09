@@ -29,8 +29,7 @@ const Settings = (props) => (
 
 class App extends Component {
   render() {
-    return (
-    );
+
   }
 }
 
