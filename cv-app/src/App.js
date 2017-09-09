@@ -12,15 +12,6 @@ const Page = ({ title }) => (
       <p className="App-intro">
         This is the {title} page.
       </p>
-      <p>
-        <Link to="/">Home</Link>
-      </p>
-      <p>
-        <Link to="/about">About</Link>
-      </p>
-      <p>
-        <Link to="/settings">Settings</Link>
-      </p>
     </div>
 );
 
@@ -41,8 +32,6 @@ class App extends Component {
     return (
       <Router history={browserHistory}>
         <Route path="/" component={Home}/>
-        <Route path="/about" component={About}/>
-        <Route path="/settings" component={Settings}/>
       </Router>
     );
   }
